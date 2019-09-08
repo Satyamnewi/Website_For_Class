@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Website of Class 12 'C'</title>
+<link href="css/stylesheet01.css" rel="stylesheet" type="text/css" />
+<link href="Spry_Assets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<script src="Spry_Assets/SpryMenuBar.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+</script>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+    <div align="center"><img src="images/bg.JPG" width="951" height="211" alt="Image of Park" longdesc="Accessibility bg.txt" /></div>
+  </div>
+  <div class="sidebar1">
+    <ul id="MenuBar1" class="MenuBarVertical">
+      <li><a href="index.html" title="HomePage" target="_self">Home</a>      </li>
+      <li><a href="new_arrivals.html" title="Click to see our teachers" target="_self" class="MenuBarItemSubmenu">Our Teachers</a>
+        <ul>
+          <li><a href="new_arrivals.html#Penguins" title="Physics Teacher" target="_self">Mr. Ram Ratan Dubey</a></li>
+          <li><a href="new_arrivals.html#Koala" title="Chemistry Teacher" target="_self">Mrs. Mala Bhattacharjee</a></li>
+          <li><a href="new_arrivals.html#Elephants" title="Maths Teacher">Mr. Sadhan Kumar Patra</a></li>
+		  <li><a href="new_arrivals.html#Penguins" title="English Teacher" target="_self">Mrs. Shalini Nair</a></li>
+          <li><a href="new_arrivals.html#Koala" title="Computer Science Teacher" target="_self">Mrs. Geetha Sunil</a></li>
+          <li><a href="new_arrivals.html#Elephants" title="Economics Teacher">Mrs. Anjoo Verma</a></li>
+        </ul>
+      </li>
+      <li><a href="opening_times.html" title="Principal" target="_self">Principal</a>
+          <ul>
+          <li><a href="opening_times.html#Penguins" title="Our Principal" target="_self">Mrs. Puneeta B Chouhan</a></li>
+          </ul>		  
+	  </li>
+      <li><a href="admission_prices.html" title="The Students of our class" target="_self">Students</a></li>
+      <li><a href="springpark_booking.html" title="Bookings Enquiry" target="_self">Booking Confirmation</a></li>
+    </ul>
+</div>
+  <div class="content">
+    <h1 align="center" id="h1">Springs Park Booking Enquiry   </h1>
+    <p>Please fill in this form and click on Submit we will send you email on the very next day!!</p>
+    <form id="form1" name="form1" method="post" action="">
+      <p>&nbsp;</p>
+      <p>
+        <label for="FirstName">First Name</label>.........
+        <input type="text" name="FirstName" id="FirstName" />
+      </p>
+      <p>
+        <label for="lastname">Last Name</label>
+        .........
+        <input type="text" name="lastname" id="lastname" />
+      </p>
+      <p>
+        <label for="contactno">Contact Number</label>
+        .
+        <input type="text" name="contactno" id="contactno" />
+      </p>
+      <p>In which animals are you interested in :</p>
+      <p align="left">
+        <label>
+           <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0" />
+          Penguins</label>
+        <br />
+        <label>
+          <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1" />
+          Koala</label>
+        <br />
+        <label>
+          <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2" />
+          Elephants</label>
+      </p>
+      <p align="left">Gender: </p>
+      <p>
+        <label>
+          <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0" />
+          Male</label>
+        <br />
+        <label>
+          <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1" />
+          Female</label>
+        <br />
+        <label>
+          <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2" />
+          Confused</label>
+      </p>
+      <p>
+        <a href="Confirmation.html" title="Account Submission Confirmation" target="_self">
+        <input name="Submit" type="submit" id="button" onclick="MM_goToURL('parent','Confirmation.html');return document.MM_returnValue" value="Submit" />
+        <br />
+      </a></p>
+      <p align="left"><!-- end .content --></p>
+    </form>
+  </div>
+<!-- end .container --></div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"Spry_Assets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
